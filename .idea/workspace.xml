@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46518424-bb71-472a-a953-879c4c790b94" name="Default Changelist" comment="" />
+    <list default="true" id="46518424-bb71-472a-a953-879c4c790b94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab8_war_exploded/WEB-INF/classes/bsu/rfe/java/group6/lab8/Litvinenko/B2/servlet/MessageListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab8_war_exploded/WEB-INF/classes/bsu/rfe/java/group6/lab8/Litvinenko/B2/servlet/MessageListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab8/bsu/rfe/java/group6/lab8/Litvinenko/B2/servlet/MessageListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab8/bsu/rfe/java/group6/lab8/Litvinenko/B2/servlet/MessageListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bsu/rfe/java/group6/lab8/Litvinenko/B2/servlet/MessageListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bsu/rfe/java/group6/lab8/Litvinenko/B2/servlet/MessageListServlet.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -29,8 +38,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1c1xtlziE2XLh5agYn1oXUpMzkf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -143,11 +154,22 @@
       <workItem from="1590066225919" duration="1042000" />
       <workItem from="1590068602998" duration="395000" />
       <workItem from="1590069265993" duration="4128000" />
-      <workItem from="1590076939314" duration="3696000" />
+      <workItem from="1590076939314" duration="11215000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

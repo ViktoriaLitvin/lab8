@@ -23,12 +23,15 @@ public class MessageListServlet extends ChatServlet {
         // Записть в поток HTML-разметку страницы
         pw.println("<html><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'/><meta http-equiv='refresh' content='10'></head>");
         pw.println("<body>");
-        Calendar calendar = new GregorianCalendar();
         // В обратном порядке записать в поток HTML-разметку для каждого сообщения
         for (int i=messages.size()-1; i>=0; i--) {
             ChatMessage aMessage = messages.get(i);
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTimeInMillis(aMessage.getTimestamp());
+            calendar.add(Calendar.MONTH,1);
             pw.println("<div><strong>" + aMessage.getAuthor().getName()
-                    + " (" + calendar.getTime() + ")"
+                    + " (" + calendar.get(Calendar.DAY_OF_MONTH) + "." + calendar.get(Calendar.MONTH) +"." + calendar.get(Calendar.YEAR) + " "
+                    + calendar.get(Calendar.HOUR) +":"+ calendar.get(Calendar.MINUTE)+":"+ calendar.get(Calendar.SECOND)+ ")"
                     + "</strong>: " + aMessage.getMessage() + "</div>");
         }
         pw.println("</body></html>");
